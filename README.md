@@ -95,23 +95,35 @@ This project was developed as part of my MCA Final Year Project to demonstrate t
 
 ### Home Page
 
-![Home Page](screenshots/home.png)
+![Home Page](screenshots/01 home.png)
+
+### Classifications
+
+![Classifications](screenshots/02 Classifications.png)
 
 ### Login Page
 
-![Login Page](screenshots/login.png)
+![admin login Page](screenshots/03 admin login.png)
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/04 Dashboard.png)
 
-### Prediction Page
+### Image Selection
 
-![Prediction Page](screenshots/prediction.png)
+![image selection](screenshots/05 image selection.png)
 
-### Prediction Result
+### Image Processing
 
-![Prediction Result](screenshots/result.png)
+![image processing](screenshots/06 image processing.png)
+
+### Classification result 
+
+![classification result](screenshots/07 classification result.png)
+
+### Graph
+
+![graph](screenshots/08 graph.png)
 
 ##  Author
 
