@@ -91,40 +91,39 @@ The dataset and trained model (`model.h5`) are not included in this repository b
 This project was developed as part of my MCA Final Year Project to demonstrate the application of Deep Learning in medical image classification.
 
 ---
-## 📸 Project Screenshots
+## 📷 Project Screenshots
 
 ### Home Page
 
-![Home Page](screenshots/01 home.png)
+![Home Page](screenshots/01%20home.png)
 
 ### Classifications
 
-![Classifications](screenshots/02 Classifications.png)
+![Classifications](screenshots/02%20Classifications.png)
 
 ### Login Page
 
-![admin login Page](screenshots/03 admin login.png)
+![Login Page](screenshots/03%20admin%20login.png)
 
 ### Dashboard
 
-![Dashboard](screenshots/04 Dashboard.png)
+![Dashboard](screenshots/04%20Dashboard.png)
 
 ### Image Selection
 
-![image selection](screenshots/05 image selection.png)
+![Image Selection](screenshots/05%20image%20selection.png)
 
 ### Image Processing
 
-![image processing](screenshots/06 image processing.png)
+![Image Processing](screenshots/06%20image%20processing.png)
 
-### Classification result 
+### Classification Result
 
-![classification result](screenshots/07 classification result.png)
+![Classification Result](screenshots/07%20classification%20result.png)
 
-### Graph
+### Accuracy Graph
 
-![graph](screenshots/08 graph.png)
-
+![Accuracy Graph](screenshots/08%20graph.png)
 ##  Author
 
 **Navshiya**
