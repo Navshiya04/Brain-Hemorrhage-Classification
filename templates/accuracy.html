@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+================================================== -->
+  <meta charset="utf-8">
+  <title>Brain-Hemorrhage-Classification</title>
+
+  <!-- Mobile Specific Metas
+================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Construction Html5 Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+  <!-- Favicon
+================================================== -->
+  <link rel="icon" type="image/png" href="../static/images/favicon.png">
+
+  <!-- CSS
+================================================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="../static/plugins/bootstrap/bootstrap.min.css">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="../static/plugins/fontawesome/css/all.min.css"> 
+  <!-- Animation -->
+  <link rel="stylesheet" href="../static/plugins/animate-css/animate.css">
+  <!-- slick Carousel -->
+  <link rel="stylesheet" href="../static/plugins/slick/slick.css">
+  <link rel="stylesheet" href="../static/plugins/slick/slick-theme.css">
+  <!-- Colorbox -->
+  <link rel="stylesheet" href="../static/plugins/colorbox/colorbox.css"> 
+  <!-- Template styles-->
+  <link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+<body>
+<div class="body-inner">   
+
+<!-- Header start -->
+<header id="header" class="header-one">  
+  <div class="site-navigation">
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+              <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a class="navbar-brand" href="#">
+                  <img class="my-1" src="../static/images/admin.png" style="width:40px;"><span> Admin Dashboard</span>
+                </a>                
+              </nav>
+          </div>
+          <!--/ Col end -->
+        </div>
+        <!--/ Row end -->       
+    </div>
+    <!--/ Container end -->
+  </div>
+  <!--/ Navigation end -->
+</header>
+<!--/ Header end -->
+
+<section id="main-container" class="main-container">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-xl-3 col-lg-4">
+        <div class="sidebar sidebar-left">
+          <div class="widget">
+            <h3 class="widget-title">Menu</h3>
+            <ul class="nav service-menu">
+              <li><a href="{{url_for('dashboard')}}">Dashboard</a></li>
+              <li><a href="{{url_for('imagebaseanalysis')}}">Classification</a></li>
+              <li class="active"><a href="{{url_for('accuracy')}}">Recall-Accuracy</a></li> 
+              <li><a href="{{url_for('logout')}}">Logout</a></li>              
+            </ul>
+          </div><!-- Widget end -->   
+        </div><!-- Sidebar end -->
+      </div><!-- Sidebar Col end -->
+
+      <div class="col-xl-8 col-lg-8">
+        <div class="content-inner-page">
+          <h4 class="column-title mrt-0 text-center">Recall-Accuracy And Metrics Graph</h4>
+          <div class="row">
+            <div class="col-md-6">
+
+            <div class="card">
+  					<div class="card-body">
+              <img class="img-thumbnail" src="../static/images/icon-image/Accuracy.png" style="width: 320px; height: 250px;">
+  					</div>
+            <div class="card-footer text-center">
+              <p>Recall-Accuracy Graph</p>
+            </div>
+				    </div><!--End Card-->
+
+            </div><!-- col end -->
+            <div class="col-md-6">
+
+              <div class="card">
+  					  <div class="card-body text-center">					
+                <img class="img-thumbnail" src="../static/images/icon-image/Metrics.png" style="width: 320px; height: 250px;">          			         								
+  					  </div>
+              <div class="card-footer text-center">
+              <p>Metrics Graph</p>
+              </div>
+				      </div>
+
+            </div>
+          </div><!-- 1st row end-->
+          <div class="gap-40"></div> 
+        </div><!-- Content inner end -->
+      </div><!-- Content Col end -->
+
+    </div><!-- Main row end -->
+  </div><!-- Conatiner end -->
+</section><!-- Main container end -->
+
+<!-- Javascript Files
+================================================== -->
+<!-- initialize jQuery Library -->
+<script src="../static/plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap jQuery -->
+<script src="../static/plugins/bootstrap/bootstrap.min.js" defer></script>
+
+  <!-- Slick Carousel -->
+  <script src="../static/plugins/slick/slick.min.js"></script>
+  <script src="../static/plugins/slick/slick-animation.min.js"></script>
+  <!-- Color box -->
+  <script src="../static/plugins/colorbox/jquery.colorbox.js"></script>
+  <!-- shuffle -->
+  <script src="../static/plugins/shuffle/shuffle.min.js" defer></script>
+
+  <!-- Template custom -->
+  <script src="../static/js/script.js"></script>
+
+
+  
+</div><!-- Body inner end -->
+</body>
+
+</html>
