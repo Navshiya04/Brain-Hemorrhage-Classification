@@ -91,6 +91,27 @@ The dataset and trained model (`model.h5`) are not included in this repository b
 This project was developed as part of my MCA Final Year Project to demonstrate the application of Deep Learning in medical image classification.
 
 ---
+## 📸 Project Screenshots
+
+### Home Page
+
+![Home Page](screenshots/home.png)
+
+### Login Page
+
+![Login Page](screenshots/login.png)
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Prediction Page
+
+![Prediction Page](screenshots/prediction.png)
+
+### Prediction Result
+
+![Prediction Result](screenshots/result.png)
 
 ##  Author
 
